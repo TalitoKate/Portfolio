@@ -1,0 +1,68 @@
+.findme-icons {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+  color: var(--charcoal);
+  
+}
+
+.findme-btn {
+  position: relative;
+  padding: 12px;
+  width: 90px;
+  height: 90px;
+  border-radius: 18px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.findme-btn:hover {
+  transform: translateY(-6px);
+  border: solid 2px var(--charcoal);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.25);
+}
+
+.findme-back {
+  position: absolute;
+  inset: 0;
+  border-radius: 18px;
+  opacity: 0.95;
+}
+
+.findme-front {
+  position: relative;
+  z-index: 2;
+}
+
+.findme-icon {
+  font-size: 2rem;
+  color: var(--charcoal);
+}
+
+.findme-icon {
+  font-size: 2rem;
+  color: var(--charcoal);
+  transition: color 0.2s ease;
+}
+
+
+
+
+
+.findme-label {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  position: relative;
+  z-index: 2;
+  color: var(--charcoal);
+}
+

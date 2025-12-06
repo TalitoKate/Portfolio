@@ -1,0 +1,12 @@
+.topbar{
+    background: var(--chrome-silver);
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 1rem;
+    max-height: 100%;
+}
+
+.test{
+    font-family: var(--text-font);
+}

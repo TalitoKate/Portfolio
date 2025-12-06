@@ -1,0 +1,25 @@
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-link {
+  font-family: var(--link-font);
+  text-decoration: none;
+  color: var(--black);
+  font-size: 1.7em;
+  transition: transform 0.2s ease;
+}
+
+.navbar-link:hover {
+  color: var(--charcoal);
+  border-bottom: 1px solid var(--charcoal);
+  transform: translateY(-4px);
+  
+}
+
+/* stays active on current route */
+.navbar-link-active {
+  color: var(--charcoal);
+  border-bottom: 1px solid var(--charcoal);
+}

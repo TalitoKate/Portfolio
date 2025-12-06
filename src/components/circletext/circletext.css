@@ -1,0 +1,38 @@
+.circletext-container {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circletext-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 5;
+  object-fit: cover;
+}
+
+.circletext-rotator {
+  position: absolute;
+  inset: 0;
+  transform-origin: center center;
+}
+
+.circletext {
+  position: absolute;
+  inset: 0;
+  transform-origin: center center;
+}
+
+.circletext span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0 0;
+  font-size: 32px;
+  font-weight: 900;
+}

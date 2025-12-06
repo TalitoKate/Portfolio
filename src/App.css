@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --modern: 'Exo 2', sans-serif;
+    --black: #000000;
+    --charcoal: #464646;
+     --link-font: 'Bebas Neue', sans-serif;
+     --text-font: 'Roboto Mono', monospace;
+    --chrome-silver: linear-gradient(90deg, #d7d7d7, #f0f0f0, #bababa, #f0f0f0, #d7d7d7);
+}
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+html, #root {
+  width: 100%;
+  height: 100%;
+}
+
+
+.main-page{
+    background: var(--chrome-silver);
+}
+
+h1, h2, h3{
+    font-family: var(--link-font);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p{
+    font-family: var(--text-font);
+}
