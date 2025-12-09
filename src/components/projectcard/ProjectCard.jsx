@@ -1,6 +1,5 @@
 import Button from '@mui/material/Button';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import './ProjectCard.css';
 import './projectcard.css'
 
 export default function Projectcard({ src, title }) {
