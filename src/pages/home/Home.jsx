@@ -16,10 +16,14 @@ export default function Home(){
                 <div className="about-me-container">
                     <div className="about-me-text">
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                            Deleniti ad voluptatem nostrum in perferendis nam, impedit neque nobis amet 
-                            ipsum sapiente debitis dicta numquam aperiam laborum tempora! Porro, eius saepe.
+                            Full-stack software engineer specializing in building scalable web and mobile applications. Experienced in delivering production-ready solutions from concept to deployment across diverse domains including e-commerce, IoT, geolocation systems, and data analytics.
                         </p>
+                        <ul className="about-me-highlights">
+                            <li><strong>Technical Expertise:</strong> React, Next.js, Java, TypeScript, Swift, Python, PostgreSQL, AWS, Vercel</li>
+                            <li><strong>Team Collaboration:</strong> Agile/Scrum methodologies, cross-functional teamwork, project workflow management</li>
+                            <li><strong>Problem Solving:</strong> Translating business requirements into elegant technical solutions with clean, maintainable code</li>
+                            <li><strong>End-to-End Development:</strong> API design, database architecture, secure authentication, payment integration, automated deployment</li>
+                        </ul>
                     </div>
 
                     <div className="about-me-image">
@@ -41,10 +45,7 @@ export default function Home(){
                 <div className="my-projects-container">
                     <div className="my-projects-text">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Nemo, praesentium deserunt minus dignissimos dolor tenetur 
-                            similique reiciendis nostrum quis blanditiis voluptatum ipsam 
-                            aspernatur non quam in autem corporis harum nihil?
+                            Explore a selection of my recent work spanning full-stack web development, mobile applications, and enterprise systems. Each project showcases different technical challenges and solutions, from real-time data processing to secure payment integrations and interactive user experiences.
                         </p>
                     </div>
 

@@ -3,14 +3,16 @@ import { TiChevronLeftOutline, TiChevronRightOutline } from "react-icons/ti";
 import Projectcard from "../projectcard/ProjectCard";
 import "./projecthome.css";
 
-const MAX_VISIBILITY = 3;
+const MAX_VISIBILITY = 2;
 
 export default function ProjectHome() {
   const cards = [
-    { src: "OneFifty.png", title: "Test 1" },
-    { src: "OneFifty.png", title: "Test 2" },
-    { src: "OneFifty.png", title: "Test 3" },
-    { src: "OneFifty.png", title: "Test 4" },
+    { src: "/images/Project6/page1.png", title: "Mental Well-Being App", link: "/projects/mwba" },
+    { src: "/images/Project5/page1.png", title: "E-commerce Website", link: "/projects/ec" },
+    { src: "/images/Project4/page11.jpeg", title: "GeoQuest App", link: "/projects/gq" },
+    { src: "/images/Project3/page1.png", title: "Digital Twin Manufacturing", link: "/projects/dt" },
+    { src: "/images/Project2/page1.png", title: "House Weather Risk Analysis", link: "/projects/hwras" },
+    { src: "/images/Project1/page1.png", title: "Weather Claim Prediction", link: "/projects/wcps" },
   ];
 
   const [active, setActive] = useState(0);
@@ -50,7 +52,7 @@ export default function ProjectHome() {
               display: absOffset > MAX_VISIBILITY ? "none" : "block",
             }}
           >
-            <Projectcard src={card.src} title={card.title} />
+            <Projectcard src={card.src} title={card.title} link={card.link} />
           </div>
         );
       })}
