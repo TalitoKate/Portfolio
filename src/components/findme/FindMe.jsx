@@ -1,4 +1,4 @@
-import './FindMe.css';
+import './findme.css';
 import { FaGithub, FaLinkedin, FaDiscord, FaEnvelope } from "react-icons/fa";
 
 export default function FindMe() {
