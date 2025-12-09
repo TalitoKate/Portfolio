@@ -1,7 +1,7 @@
 import "./projectdiv.css"
 import { useNavigate } from 'react-router-dom'
 
-export default function ProjectDiv({ title, src, description, link }) {
+export default function ProjectDiv({ title, src, description, link, status }) {
 
     const navigate = useNavigate(); // <-- call the hook here
 
@@ -15,6 +15,11 @@ export default function ProjectDiv({ title, src, description, link }) {
             </div>
             <div>
                 <h2>{title}</h2>
+                {status && (
+                    <span className={`project-card-status ${status.toLowerCase().replace(' ', '-')}`}>
+                        {status}
+                    </span>
+                )}
                 <p>{description}</p>
             </div>
         </section>
